@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Job Application Form</title>
+    <link rel="stylesheet" href="2.css" />
+  </head>
+  <body>
+    <marquee direction="right" height="50%" width="100%" bgcolor="red" behavior="alternative" >JOB APPLICATION</marquee>
+    <div class="container">
+      <div class="apply_box">
+        <h1>
+          Job Application
+          <span direction="right" class="title_medium">Form</span>
+        </h1>
+        <form action="">
+          <div class="form_container">
+            <div class="form_control">
+              <label for="first_name"> First Name* </label>
+              <input id="first_name" name="first_name" placeholder="Enter First Name..."/>
+            </div>
+            <div class="form_control">
+                <label for="Middle_name"> Middle Name </label>
+                <input id="Middle_name" name="Middle_name" placeholder="Enter Middle Name..." />
+              </div>
+            <div class="form_control">
+              <label for="last_name"> Last Name* </label>
+              <input id="last_name" name="last_name" placeholder="Enter Last Name..."/>
+            </div>
+            <div class="form_control">
+              <label for="Gender"> Gender* </label>
+              <select id="Gender" name="Gender">
+                <option vaue="">Select Gender</option>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+              </select>
+            </div>
+            <div class="form_control">
+                <label for="email"> Email* </label>
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  placeholder="Enter Email..."
+                />
+              </div>
+              <div class="form_control">
+                <label for="Mobile_Number"> Mobile Number* </label>
+                <input
+                  type="Mobile_Number"
+                  id="Mobile_Number"
+                  name="Mobile_Number"
+                  placeholder="Enter Mobile Number..."
+                />
+              </div>
+              <div class="form_control">
+                <label for="Degree"> Degree* </label>
+                <select id="Degree" name="Degree">
+                  <option value="">Select Degree</option>
+                  <option value="B.E/B.TECH">B.E/B.TECH</option>
+                  <option value="M.E/M.TECH">M.E/M.TECH</option>
+                  <option value="MCA/M.SC">MCA/M.SC</option>
+                </select>
+              </div>
+              
+              <div class="form_control">
+                <label for="College Name"> College Name* </label>
+                <input
+                  type="College Name"
+                  id="Mobile_Number"
+                  name="Mobile_Number"
+                  placeholder="Enter College Name..."
+                />
+              </div>
+              <div class="form_control">
+                <label for="Specialization">Specialization* </label>
+                <input
+                  type="Specialization"
+                  id="Specialization"
+                  name="Specialization"
+                  placeholder="Enter Specialization..."
+                />
+              </div>
+              <div class="form_control">
+                <label for="CGPA"> CGPA </label>
+                <select id="CGPA" name="CGPA">
+                  <option value="">Select CGPA*</option>
+                  <option value="8.5>9.5">8.5 > 9.5</option>
+                  <option value="7.5>8.5">7.5 > 8.5</option>
+                  <option value="6.5>7.5">6.0 > 7.5</option>
+                  <option value="5.5>6.5">5.5 > 6.5</option>
+                </select>
+              </div>
+              <div class="form_control">
+                <label for="Experience"> Experience </label>
+                <select id="Experience" name="Experience">
+                  <option value="">Select Experience</option>
+                  <option value="0-2">0-2</option>
+                  <option value="Fresher">Fresher</option>
+                </select>
+              </div>
+            <div class="form_control">
+              <label for="job_role"> Job Role </label>
+              <select id="job_role" name="job_role">
+                <option value="">Select Job Role</option>
+                <option value="frontend">Frontend Developer</option>
+                <option value="backend">Backend Developer</option>
+                <option value="full_stack">Full Stack Developer</option>
+                <option value="ui_ux">UI UX Designer</option>
+              </select>
+            </div>
+            <div class="textarea_control">
+              <label for="address"> Address </label>
+              <textarea
+                id="address"
+                name="address"
+                row="4"
+                cols="50"
+                placeholder="Enter Address..."
+              ></textarea>
+            </div>
+            <div class="form_control">
+                <label for="state"> State</label>
+                <input id="state" name="state" placeholder="Enter State ..." />
+              </div>
+            <div class="form_control">
+              <label for="city"> City </label>
+              <input id="city" name="city" placeholder="Enter City Name..." />
+            </div>
+            <div class="form_control">
+              <label for="pincode"> Pincode </label>
+              <input type="number" id="pincode" name="pincode"  placeholder="Enter Pincode Name..."
+              />
+            </div>
+            <div class="form_control">
+              <label for="date"> Date </label>
+              <input value="2024-05-09" type="date" id="date" name="date" />
+            </div>
+            <div class="form_control">
+              <label for="upload"> Upload Your CV* </label>
+              <input type="file" id="upload" name="upload" />
+            </div>
+            <div class="form_control">
+                <label for="upload"> Upload Your Photo*L</label>
+                <input type="file" id="upload" name="upload" />
+              </div>
+          </div>
+          <div class="button_container">
+            <button type="submit">Apply Now</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
